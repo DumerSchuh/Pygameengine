@@ -107,8 +107,7 @@ main.py
 
 ## License
 
-No license here
-I will sue you if you dont give Credits!
+Check [LICENSE.md](LICENSE.md)
 
 ## Credits
 
