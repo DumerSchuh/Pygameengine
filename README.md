@@ -107,10 +107,10 @@ main.py
 
 ## License
 
-[Your License Here]
-
----
+No license here
+I will sue you if you dont give Credits!
 
 ## Credits
 
-- Inspired by other Python ASCII engines: [pygamii](https://github.com/carlosmaniero/pygamii), [scrap_engine](https://github.com/lxgr-linux/scrap_engine), [pyplayscii](https://github.com/k2sebeom/pyplayscii), [Bane-Of-Wargs](https://github.com/Dungeons-of-Kathallion/Bane-Of-Wargs)
+-this Project has no Inspirations!
+-this Project was made after long long time of thinking, how to do it the best.
