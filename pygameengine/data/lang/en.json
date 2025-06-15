@@ -1,0 +1,57 @@
+{
+    "language":{    
+        "header":"Language",
+        "welcomeselect":"Welcome, please select a language:",
+        "languages": {
+            "en":"english",
+            "de":"german"
+        },
+        "asklang":"Which language do you choose? "
+},
+    "pin":{
+        "header":"PIN",
+        "createpin":"Please create a PIN for your Accountsafety",
+        "enterpin":"Please enter your Pin",
+        "callloggedin":"You are logged in!"
+},
+    "savemenu":{
+        "header":"Your savefiles",
+        "yoursaves":"This are your saves:",
+        "askselectsave":"Please select a save: ",
+        "nosaves":"You have no save file!",
+        "nosavesinfo":"Press enter to create a new save file",
+        "askselectsavecreate":"Create new save file"
+},  
+    "createsave":{
+        "header":"Create a new savefile",
+        "newsavenameenterinfo":"Please enter the name of your new save file",
+        "newsavecreated":"New savefile created!"
+},
+    "editsave":{
+        "header":"Edit a savefile",
+        "askselectedsave":"What do you want to do with ",
+        "load":"Load",
+        "delete":"Delete",
+        "rename":"Rename",
+        "pathcopy":"Get and copy file-path",
+        "confirmload":"Do you realy want to load ",
+        "confirmdelete":"Do you realy want to delete ",
+        "confirmdeleteinfo":"It will be unrestoralble, to delete ",
+        "confirmdeletecanceled":"Deletion process canceled!",
+        "renameask":"How do you want to rename ",
+        "renamedone1":"Succesfully renamed ",
+        "renamedone2":" to ",
+        "copypath":"This is the savefile-path of "
+},
+    "standart":{
+        "askforaction":"What do you want to do? ",
+        "booleananswer":"(yes/y//no/n)",
+        "booleanansweroptions":{
+            "y":"yes",
+            "n":"no"
+        }
+},
+    "error":{
+        "header":"ERROR"
+}
+}

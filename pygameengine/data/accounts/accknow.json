@@ -1,0 +1,14 @@
+{
+  "loggedinbefore": "True",
+  "pin": "TnlNOMdt",
+  "saves": {
+    "1": {
+      "name": "New Save",
+      "directory": "s1.json"
+    },
+    "2": {
+      "name": "New Save",
+      "directory": "s2.json"
+    }
+  }
+}

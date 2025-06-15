@@ -1,0 +1,68 @@
+{
+    
+
+    
+    
+
+
+    
+    
+{
+    "language":{    
+        "header":"Sprache",
+        "welcomeselect":"Willkommen, bitte wähle eine Sprache",
+        "languages": {
+            "en":"Englisch",
+            "de":"Deutsch"
+        },
+        "asklang":"Welche Sprache wählst du? ",
+},
+    "pin":{
+        "header":"PIN",
+        "createpin":"Bitte erstellen sie eine PIN für ihre Benutzerkontensicherheit",
+        "enterpin":"Bitte geben sie ihre PIN ein",
+        "callloggedin":"Du bist eingeloggt",
+},
+    "savemenu":{
+        "header":"Deine Speicherstände",
+        "yoursaves":"Dies sind deine Speicherstände",
+        "askselectsave":"Bitte wäle einen Speicherstand aus: ",
+        "nosaves":"Du hast keinen Speicherstand!",
+        "nosavesinfo":"Gebe 1 ein, um einen neuen Speicherstand zu erstellen",
+        "askselectsavecreate":"Create new save file"
+},  
+    "createsave":{
+        "header":"Create a new savefile",
+        "newsavenameenterinfo":"Please enter the name of your new save file",
+        "newsavecreated":"New savefile created!"
+},
+    "editsave":{
+        "header":"Edit a savefile",
+        "askselectedsave":"What do you want to do with ",
+        "load":"Load",
+        "delete":"Delete",
+        "rename":"Rename",
+        "pathcopy":"Get and copy file-path",
+        "confirmload":"Do you realy want to load ",
+        "confirmdelete":"Do you realy want to delete ",
+        "confirmdeleteinfo":"It will be unrestoralble, to delete ",
+        "confirmdeletecanceled":"Deletion process canceled!",
+        "renameask":"How do you want to rename ",
+        "renamedone1":"Succesfully renamed ",
+        "renamedone2":" to ",
+        "copypath":"This is the savefile-path of "
+},
+    "standart":{
+        "askforaction":"Was möchtest du tun? ",
+        "booleananswer":"(yes/y//no/n)",
+        "booleanansweroptions":{
+            "y":"yes",
+            "n":"no"
+        }
+},
+    "error":{
+        "header":"ERROR",
+        "errincorrectenterint":"Error: No Integer entered!",
+        "errloginpin":"Fehler bei dem einloggen: Bitte versuchen sie es erneut!",
+}
+}
