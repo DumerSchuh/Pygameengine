@@ -73,14 +73,14 @@ Pygameengine is a Python-based ASCII game engine designed for terminal-based gam
 
 ## Getting Started
 
-1. Clone this repository.
-2. Install requirements if any (see `requirements.txt`).
+1. Clone this repository or downlaod the most recent release.
+2. Install requirements if any still needed (see [requirements.md](requirements.md)).
 3. Run the main script:
    ```bash
    python main.py
    ```
-4. Follow terminal prompts for language, PIN, and save selection.
-
+4. Follow terminal prompts for language, PIN, and save selection, so you have your base settings
+5. Program your game in `game.py` (How you use the librarys is shown in the _soon coming_ **WIKI**)
 ---
 
 ## Folder Structure
