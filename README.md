@@ -113,3 +113,4 @@ Check [LICENSE.md](LICENSE.md)
 
 -this Project has no Inspirations!
 -this Project was made after long long time of thinking, how to do it the best.
+-README.md,LICENSE.md and REQUIREMENTS.md were generatet by AI on purpose with modifications
