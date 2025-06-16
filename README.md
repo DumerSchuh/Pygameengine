@@ -107,7 +107,7 @@ main.py
 
 ## License
 
-Check [LICENSE.md](LICENSE.md)
+Check [LICENSE.md](LICENSE.md) out!
 
 ## Credits
 
