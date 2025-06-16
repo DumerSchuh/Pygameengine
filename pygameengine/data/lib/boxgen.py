@@ -87,6 +87,18 @@ class type:
         return {"a":cols["r2a"],"b":cols["r1b"],"c":cols["r3a"],"d":cols["r3b"],"e":cols["r3c"],"f":cols["r3d"],"g":cols["r3e"],"h":cols["r3f"],"i":cols["r3g"],"j":cols["r3h"],"k":cols["r3i"]}
     def type4():
         return {"a":cols["r1a"],"b":cols["r2b"],"c":cols["r4a"],"d":cols["r4b"],"e":cols["r4c"],"f":cols["r4d"],"g":cols["r4e"],"h":cols["r4f"],"i":cols["r4g"],"j":cols["r4h"],"k":cols["r4i"]}
+    def type5():
+        return {"a":cols["r1a"],"b":cols["r1b"],"c":cols["r5a"],"d":cols["r5b"],"e":cols["r5c"],"f":cols["r5d"],"g":cols["r1g"],"h":cols["r1h"],"i":cols["r1i"],"j":cols["r1j"],"k":cols["r1k"]}
+    def type6():
+        return {"a":cols["r6a"],"b":cols["r6c"],"c":cols["r1c"],"d":cols["r1d"],"e":cols["r1e"],"f":cols["r1f"],"g":cols["r1g"],"h":cols["r1h"],"i":cols["r1i"],"j":cols["r1j"],"k":cols["r1k"]}
+    def type7():
+        return {"a":cols["r6b"],"b":cols["r6d"],"c":cols["r1c"],"d":cols["r1d"],"e":cols["r1e"],"f":cols["r1f"],"g":cols["r1g"],"h":cols["r1h"],"i":cols["r1i"],"j":cols["r1j"],"k":cols["r1k"]}
+    def type8():
+        return {"a":cols["r7a"],"b":cols["r7b"],"c":cols["r1c"],"d":cols["r1d"],"e":cols["r1e"],"f":cols["r1f"],"g":cols["r1g"],"h":cols["r1h"],"i":cols["r1i"],"j":cols["r1j"],"k":cols["r1k"]}
+    def type9():
+        return {"a":cols["r8a"],"b":cols["r8b"],"c":cols["r1c"],"d":cols["r1d"],"e":cols["r1e"],"f":cols["r1f"],"g":cols["r1g"],"h":cols["r1h"],"i":cols["r1i"],"j":cols["r1j"],"k":cols["r1k"]}
+    def type10():
+        return {"a":cols["r9a"],"b":cols["r9b"],"c":cols["r1c"],"d":cols["r1d"],"e":cols["r1e"],"f":cols["r1f"],"g":cols["r1g"],"h":cols["r1h"],"i":cols["r1i"],"j":cols["r1j"],"k":cols["r1k"]}
 def pregen(text:list[str]=["          ","   "],splitteratpos:list[int]=[],headingtext:str="     ",input:bool=False,inputtext:str="",split:bool=False,splittext1:list[str]=["   "],splittext2:list[str]=["       "],color="WHITE",typ=1):
     if typ==2:
         typ=type.type2()
@@ -94,6 +106,18 @@ def pregen(text:list[str]=["          ","   "],splitteratpos:list[int]=[],headin
         typ=type.type3()
     elif typ==4:
         typ=type.type4()
+    elif typ==5:
+        typ=type.type5()
+    elif typ==6:
+        typ=type.type6()
+    elif typ==7:
+        typ=type.type7()
+    elif typ==8:
+        typ=type.type8()
+    elif typ==9:
+        typ=type.type9()
+    elif typ==10:
+        typ=type.type10()
     else:
         typ=type.type1()
     maxlen1=max(len(t1) for t1 in splittext1) if splittext1 else 0
@@ -123,3 +147,5 @@ def pregen(text:list[str]=["          ","   "],splitteratpos:list[int]=[],headin
     gen.footer(length=length,inputbelow=input,split=split,splitlength1=maxlen1,splitlength2=maxlen2,color=color,setcols=typ)
     if input==True:
         return gen.input(prompt=inputtext,color=color,setcols=typ)
+    
+pregen(typ=10,text=["                       ","","","","","",""])
