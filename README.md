@@ -64,7 +64,13 @@ Pygameengine is a Python-based ASCII game engine designed for terminal-based gam
 | **Asciin.py**               | ✅     | ✅          | 🟡                    | ❌             | ❌                    | ❌                 | ❌                | ❌                     | ✅                      | ✅                       |
 | **AsciiEngine**             | ✅     | ✅          | 🟡                    | ❌             | ❌                    | ❌                 | ❌                | ❌                     | ✅                      | ✅                       |
 | **roguelike-ascii-vs-pygame** | ✅   | ✅          | ✅                    | ❌             | ❌                    | ❌                 | 🔹 Basic          | JSON                   | 🟡                      | Example Only             |
-
+| Symbol   | Meaning            |
+|:--------:|:-------------------|
+| ✅       | Yes                |
+| ❌       | No                 |
+| 🟡       | Partial/Kinda      |
+| 🔷       | Advanced           |
+| 🔹       | Basic              |
 
 ---
 
