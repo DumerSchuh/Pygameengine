@@ -11,30 +11,36 @@ lang=tools.loadlang(langsel)
 cols=tools.loadsettings()
 class main:
     def run():
-        global langsel
-        lines=[lang["language"]["welcomeselect"]]
-        for code,name in lang["language"]["languages"].items():
-            lines.append(f"{code}: {name}")
-        langsel=boxgen.pregen(text=lines,splitteratpos=[1],headingtext=lang["language"]["header"],input=True,inputtext=lang["language"]["asklang"],typ=2)
-        if langsel==code or name in lang["language"]["languages"]:
-            pass
-        else:
-            langsel="en"
-        accounts_path=os.path.join(base_dir,"data\\accounts","sellang.json")
-        try:
-            if os.path.exists(accounts_path):
-                with open(accounts_path,"rt",encoding="utf-8") as f:
-                    accountknow=json.load(f)
+        global langsel,accountknow
+        acc_path=os.path.join(base_dir,"data\\accounts","accknow.json")
+        with open(acc_path,"rt",encoding="utf-8") as f:
+            accountknow=json.load(f)
+        if accountknow["loggedinbefore"]== "False":
+            lines=[lang["language"]["welcomeselect"]]
+            for code,name in lang["language"]["languages"].items():
+                lines.append(f"{code}: {name}")
+            langsel=boxgen.pregen(text=lines,splitteratpos=[1],headingtext=lang["language"]["header"],input=True,inputtext=lang["language"]["asklang"],typ=2)
+            if langsel==code or name in lang["language"]["languages"]:
+                pass
             else:
+                langsel="en"
+            accounts_path=os.path.join(base_dir,"data\\accounts","sellang.json")
+            try:
+                if os.path.exists(accounts_path):
+                    with open(accounts_path,"rt",encoding="utf-8") as f:
+                        accountknow=json.load(f)
+                else:
+                    accountknow={}
+            except json.JSONDecodeError:
                 accountknow={}
-        except json.JSONDecodeError:
-            accountknow={}
-        accountknow["selectlang"]=langsel
-        with open(accounts_path,"wt",encoding="utf-8") as f:
-            json.dump(accountknow,f,ensure_ascii=False,indent=2)
-        tools.loadlang(langsel)
-        tools.clear()
-        main.accmenu()
+            accountknow["selectlang"]=langsel
+            with open(accounts_path,"wt",encoding="utf-8") as f:
+                json.dump(accountknow,f,ensure_ascii=False,indent=2)
+            tools.loadlang(langsel)
+            tools.clear()
+            main.accmenu()
+        else:
+            main.accmenu()
     def accmenu():
         global accountknow,pin
         acc_path=os.path.join(base_dir,"data\\accounts","accknow.json")
