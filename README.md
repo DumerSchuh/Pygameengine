@@ -54,19 +54,16 @@ Pygameengine is a Python-based ASCII game engine designed for terminal-based gam
 
 ## Comparison with Other Python ASCII Game Engines
 
-## Comparison with Other Python ASCII Game Engines
-| Feature                                     | Pygameengine | pygamii | scrap_engine | pyplayscii | Bane-Of-Wargs | Asciin.py | AsciiEngine | roguelike-ascii-vs-pygame | Symbole | Meaning |
-|---------------------------------------------|:------------:|:-------:|:------------:|:----------:|:-------------:|:---------:|:-----------:|:-------------------------:|:-------:|:-------:|
-| Coding language                             | Python       | Python  | Python       | Python     | Python        | Python    | Python      | Python                    | ✅     | Yes |
-| Terminal UI                                 | ✅           | ✅      | ✅           | ✅         | ✅            | ✅        | ✅          | ✅                        | 🟡| Kinda/Partial|
-| └> Modular Menus/Prompts                    | ✅           | ✅      | ✅           | 🟡         | ✅            | 🟡        | 🟡          | ✅                        | ❌| No |
-| Account System                              | ✅           | ❌      | ❌           | ❌         | ❌            | ❌        | ❌          | ❌                        | 🔷| Advanced |
-| └> Multi-language Support                   | ✅           | 🟡      | ❌           | ❌         | ❌            | ❌        | ❌          | ❌                        | 🔹| Basic |
-| └> PIN Authentication                       | ✅           | ❌      | ❌           | ❌         | ❌            | ❌        | ❌          | ❌                        |
-| └> Save System                              | 🔷 Advanced  | 🔹 Basic| 🔹 Basic     | 🔹 Basic   | 🔷 Advanced   | ❌        | ❌          | 🔹 Basic                  |
-|    └> File-based Persistence                | JSON         | JSON    | JSON         | JSON       | JSON          | ❌        | ❌          | JSON                      |
-| Extensible Architecture                     | ✅           | ✅      | ✅           | ✅         | ✅            | ✅        | ✅          | 🟡                        |
-| └> Made for making a own Text-Based Game    | ✅           | ✅      | ✅           | ✅         | ✅            | ✅        | ✅          | Example Only              |
+| Engine / Feature             | Python | Terminal UI | Modular Menus/Prompts | Account System | Multi-language Support | PIN Authentication | Save System      | File-based Persistence | Extensible Architecture | Made for Text-Based Game |
+|:---------------------------:|:------:|:-----------:|:---------------------:|:--------------:|:---------------------:|:------------------:|:-----------------:|:----------------------:|:-----------------------:|:------------------------:|
+| **Pygameengine**            | ✅     | ✅          | ✅                    | ✅             | ✅                    | ✅                 | 🔷 Advanced       | JSON                   | ✅                      | ✅                       |
+| **pygamii**                 | ✅     | ✅          | ✅                    | ❌             | 🟡                    | ❌                 | 🔹 Basic          | JSON                   | ✅                      | ✅                       |
+| **scrap_engine**            | ✅     | ✅          | ✅                    | ❌             | ❌                    | ❌                 | 🔹 Basic          | JSON                   | ✅                      | ✅                       |
+| **pyplayscii**              | ✅     | ✅          | 🟡                    | ❌             | ❌                    | ❌                 | 🔹 Basic          | JSON                   | ✅                      | ✅                       |
+| **Bane-Of-Wargs**           | ✅     | ✅          | ✅                    | ❌             | ❌                    | ❌                 | 🔷 Advanced       | JSON                   | ✅                      | ✅                       |
+| **Asciin.py**               | ✅     | ✅          | 🟡                    | ❌             | ❌                    | ❌                 | ❌                | ❌                     | ✅                      | ✅                       |
+| **AsciiEngine**             | ✅     | ✅          | 🟡                    | ❌             | ❌                    | ❌                 | ❌                | ❌                     | ✅                      | ✅                       |
+| **roguelike-ascii-vs-pygame** | ✅   | ✅          | ✅                    | ❌             | ❌                    | ❌                 | 🔹 Basic          | JSON                   | 🟡                      | Example Only             |
 
 
 ---
