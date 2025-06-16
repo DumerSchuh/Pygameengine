@@ -97,10 +97,13 @@ data/
     saves/
       s1.json
       s2.json
+      ..
   lib/
+    __init__.py
     tools.py
     boxgen.py
 main.py
+game.py
 ```
 
 ---
